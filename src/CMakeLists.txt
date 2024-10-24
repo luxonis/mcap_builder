@@ -1,4 +1,4 @@
-add_library(mcap SHARED lib.cpp)
+add_library(mcap lib.cpp)
 
 target_include_directories(mcap PUBLIC
   $<BUILD_INTERFACE:${MCAP_INCLUDE_DIR}>
