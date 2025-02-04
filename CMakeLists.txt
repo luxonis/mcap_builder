@@ -11,7 +11,7 @@ project(mcap_builder LANGUAGES CXX VERSION ${VERSION})
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
-set(MCAP_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/mcap/include)
+set(MCAP_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/3rdparty/mcap/include/)
 
 add_subdirectory(src)
 
